@@ -1,13 +1,15 @@
 {
-  "format": "Muddog-fleer/video-v1",
+  "format": "Muddog-fleer/video-v2",
   "scene": {
     "name": "Muddog-fleer",
-    "version": 1,
+    "version": 2,
     "seed": 42132,
     "duration": 42,
     "fps": 24,
     "width": 1920,
     "height": 1080,
+    "presentation": "Restrained fictional field-simulator aesthetic; wordless from first frame to last.",
+    "onScreenText": false,
     "classification": "Scripted fictional allegiance cue; no image recognition or real sensor model.",
     "subjects": [
       {
@@ -64,19 +66,20 @@
         "port": 0
       }
     ],
-    "scope": "A rendered science-fiction game vignette. Faceless synthetic energy mannequins, abstract colored states, and animated light pulses. All scene distances are arbitrary. No combat planning, weapons, real FLIR processing, or operational targeting."
+    "scope": "A rendered fictional game vignette. Synthetic mannequins, abstract colored states, and animated light pulses. All scene distances are arbitrary. No combat planning, weapons, real FLIR processing, or operational targeting."
   },
   "checks": {
     "projectiles": 3,
     "blue_subjects_preserved": 2,
     "camera_continuous": true,
-    "classification": "scripted"
+    "classification": "scripted",
+    "text_rendering_calls": 0
   },
   "audio": {
     "sampleRate": 48000,
     "channels": 2,
     "peak": 0.79,
-    "rms": 0.05541955550449122,
+    "rms": 0.03342896991717634,
     "cues": [
       {
         "time": 0.9,
@@ -254,6 +257,31 @@
         "pan": -0.33
       },
       {
+        "time": 39.06,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 39.78,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 40.5,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 41.22,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 41.94,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
         "time": 1.0,
         "type": "pump",
         "pan": -0.08
@@ -411,42 +439,42 @@
       {
         "time": 10.0,
         "type": "beacon",
-        "pan": 0.193
+        "pan": 0.194
       },
       {
         "time": 10.95,
         "type": "beacon",
-        "pan": 0.116
+        "pan": 0.108
       },
       {
         "time": 11.8795,
         "type": "beacon",
-        "pan": 0.136
+        "pan": 0.121
       },
       {
         "time": 12.7552,
         "type": "beacon",
-        "pan": 0.128
+        "pan": 0.111
       },
       {
         "time": 13.5575,
         "type": "beacon",
-        "pan": 0.098
+        "pan": 0.084
       },
       {
         "time": 14.2796,
         "type": "beacon",
-        "pan": 0.06
+        "pan": 0.052
       },
       {
         "time": 14.9239,
         "type": "beacon",
-        "pan": 0.027
+        "pan": 0.024
       },
       {
         "time": 15.4974,
         "type": "beacon",
-        "pan": 0.007
+        "pan": 0.006
       },
       {
         "time": 16.0095,
@@ -571,7 +599,7 @@
       {
         "time": 20.6,
         "type": "P1-launch",
-        "pan": -0.65
+        "pan": -0.23
       },
       {
         "time": 21.25,
@@ -581,7 +609,7 @@
       {
         "time": 21.35,
         "type": "P2-launch",
-        "pan": 0.65
+        "pan": 0.23
       },
       {
         "time": 22.0,
@@ -621,21 +649,26 @@
     "height": 1080,
     "fps": 24,
     "duration": 42,
-    "sha256": "5365492a2623880396e40bea3739f0ec1e7e844b133205bd55cc088be2debd57",
-    "encoding": "H.264 CRF 24 / slow; AAC audio copied from the initial render.",
-    "bytes": 11610419
+    "sha256": "0066465128134c20f6da18bfeac72cf33c823c4dea35bf47e3b6191dc9a57aef",
+    "bytes": 9450061
   },
-  "renderer": "Deterministic procedural 3D projection, vector silhouettes, bloom and drawn pulse paths.",
+  "renderer": "Shaded forest mesh, uneven terrain, synthetic mannequins, batched perspective projection and drawn pulse paths.",
+  "textPolicy": "No titles, captions, lettering, numbers, logos or subtitle tracks. Reticle only.",
   "verification": {
     "full_video_audio_decode": "passed",
     "encoded_frames": 1008,
     "decoded_audio": {
       "duration_seconds": 42.00533333333333,
-      "peak": 0.798553466796875,
+      "peak": 0.694305419921875,
       "clipped_samples": 0,
-      "channel_difference_rms": 0.017033834760329873
+      "channel_difference_rms": 0.007438326122209788
     },
-    "license_preserved": true
-  },
-  "rendererNote": "This delivery was compressed from the initial CRF 19 master. The renderer now uses CRF 24 directly for future exports."
+    "subtitle_tracks": 0,
+    "title_metadata": false,
+    "text_rendering_calls": 0,
+    "boundary_frames_reviewed": [
+      0,
+      1007
+    ]
+  }
 }
