@@ -4,7 +4,7 @@ A 42-second fictional FPS film with a restrained field-simulator aesthetic: shad
 
 **Version 2 is completely wordless:** no opening or closing titles, captions, lettering, numbers, logos or subtitle tracks. The reticle is the only HUD element.
 
-**[Watch / download Muddog-fleer.mp4](media/Muddog-fleer.mp4)** · [Scene and sound design](docs/film.md)
+**[Watch / download the wordless v2 MP4](media/Muddog-fleer-v2-8c3b958.mp4)** · [Scene and sound design](docs/film.md)
 
 ![Muddog-fleer — three-pulse sequence](media/Muddog-fleer.jpg)
 
