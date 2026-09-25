@@ -1,0 +1,21 @@
+{
+  "name": "Muddog-fleer",
+  "version": 1,
+  "seed": 42132,
+  "duration": 42,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "classification": "Scripted fictional allegiance cue; no image recognition or real sensor model.",
+  "subjects": [
+    {"id": "A1", "position": [-3.2, 0, 9.8], "state": "blue"},
+    {"id": "T1", "position": [0.5, 0, 15.5], "state": "blue", "redAt": 19.0, "diffuseAt": 23.0, "goneAt": 25.4},
+    {"id": "A2", "position": [3.0, 0, 26.0], "state": "blue"}
+  ],
+  "projectiles": [
+    {"id": "P1", "subject": "T1", "launch": 20.6, "arrival": 21.25, "port": -1},
+    {"id": "P2", "subject": "T1", "launch": 21.35, "arrival": 22.0, "port": 1},
+    {"id": "P3", "subject": "T1", "launch": 22.1, "arrival": 22.75, "port": 0}
+  ],
+  "scope": "A rendered science-fiction game vignette. Faceless synthetic energy mannequins, abstract colored states, and animated light pulses. All scene distances are arbitrary. No combat planning, weapons, real FLIR processing, or operational targeting."
+}

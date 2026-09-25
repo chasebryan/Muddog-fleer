@@ -1,0 +1,641 @@
+{
+  "format": "Muddog-fleer/video-v1",
+  "scene": {
+    "name": "Muddog-fleer",
+    "version": 1,
+    "seed": 42132,
+    "duration": 42,
+    "fps": 24,
+    "width": 1920,
+    "height": 1080,
+    "classification": "Scripted fictional allegiance cue; no image recognition or real sensor model.",
+    "subjects": [
+      {
+        "id": "A1",
+        "position": [
+          -3.2,
+          0,
+          9.8
+        ],
+        "state": "blue"
+      },
+      {
+        "id": "T1",
+        "position": [
+          0.5,
+          0,
+          15.5
+        ],
+        "state": "blue",
+        "redAt": 19.0,
+        "diffuseAt": 23.0,
+        "goneAt": 25.4
+      },
+      {
+        "id": "A2",
+        "position": [
+          3.0,
+          0,
+          26.0
+        ],
+        "state": "blue"
+      }
+    ],
+    "projectiles": [
+      {
+        "id": "P1",
+        "subject": "T1",
+        "launch": 20.6,
+        "arrival": 21.25,
+        "port": -1
+      },
+      {
+        "id": "P2",
+        "subject": "T1",
+        "launch": 21.35,
+        "arrival": 22.0,
+        "port": 1
+      },
+      {
+        "id": "P3",
+        "subject": "T1",
+        "launch": 22.1,
+        "arrival": 22.75,
+        "port": 0
+      }
+    ],
+    "scope": "A rendered science-fiction game vignette. Faceless synthetic energy mannequins, abstract colored states, and animated light pulses. All scene distances are arbitrary. No combat planning, weapons, real FLIR processing, or operational targeting."
+  },
+  "checks": {
+    "projectiles": 3,
+    "blue_subjects_preserved": 2,
+    "camera_continuous": true,
+    "classification": "scripted"
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "peak": 0.79,
+    "rms": 0.05541955550449122,
+    "cues": [
+      {
+        "time": 0.9,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 1.62,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 2.34,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 3.06,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 3.78,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 4.5,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 5.22,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 5.94,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 6.66,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 7.38,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 8.1,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 8.82,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 9.54,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 10.26,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 10.98,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 11.7,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 12.42,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 13.14,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 13.86,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 27.54,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 28.26,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 28.98,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 29.7,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 30.42,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 31.14,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 31.86,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 32.58,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 33.3,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 34.02,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 34.74,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 35.46,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 36.18,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 36.9,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 37.62,
+        "type": "step",
+        "pan": 0.33
+      },
+      {
+        "time": 38.34,
+        "type": "step",
+        "pan": -0.33
+      },
+      {
+        "time": 1.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 2.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 3.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 4.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 6.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 7.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 8.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 9.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 11.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 12.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 13.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 14.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 16.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 17.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 18.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 19.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 21.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 22.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 23.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 24.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 26.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 27.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 28.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 29.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 31.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 32.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 33.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 34.75,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 36.0,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 37.25,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 38.5,
+        "type": "pump",
+        "pan": -0.08
+      },
+      {
+        "time": 10.0,
+        "type": "beacon",
+        "pan": 0.193
+      },
+      {
+        "time": 10.95,
+        "type": "beacon",
+        "pan": 0.116
+      },
+      {
+        "time": 11.8795,
+        "type": "beacon",
+        "pan": 0.136
+      },
+      {
+        "time": 12.7552,
+        "type": "beacon",
+        "pan": 0.128
+      },
+      {
+        "time": 13.5575,
+        "type": "beacon",
+        "pan": 0.098
+      },
+      {
+        "time": 14.2796,
+        "type": "beacon",
+        "pan": 0.06
+      },
+      {
+        "time": 14.9239,
+        "type": "beacon",
+        "pan": 0.027
+      },
+      {
+        "time": 15.4974,
+        "type": "beacon",
+        "pan": 0.007
+      },
+      {
+        "time": 16.0095,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 16.4696,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 16.8868,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 17.2689,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 17.6228,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 17.9544,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 18.269,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 18.5714,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 18.8657,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 19.1562,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 19.4462,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 19.7362,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 20.0262,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 20.3162,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 20.6062,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 20.8962,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 21.1862,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 21.4762,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 21.7662,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 22.0562,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 22.3462,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 22.6362,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 22.9262,
+        "type": "beacon",
+        "pan": 0.0
+      },
+      {
+        "time": 19,
+        "type": "red-state",
+        "pan": 0.0
+      },
+      {
+        "time": 20.6,
+        "type": "P1-launch",
+        "pan": -0.65
+      },
+      {
+        "time": 21.25,
+        "type": "P1-arrival",
+        "pan": 0.0
+      },
+      {
+        "time": 21.35,
+        "type": "P2-launch",
+        "pan": 0.65
+      },
+      {
+        "time": 22.0,
+        "type": "P2-arrival",
+        "pan": 0.0
+      },
+      {
+        "time": 22.1,
+        "type": "P3-launch",
+        "pan": 0.0
+      },
+      {
+        "time": 22.75,
+        "type": "P3-arrival",
+        "pan": 0.0
+      },
+      {
+        "time": 23,
+        "type": "diffuse",
+        "pan": 0.0
+      },
+      {
+        "time": 31.5,
+        "type": "blue-observe",
+        "pan": 0.6
+      },
+      {
+        "time": 33,
+        "type": "blue-observe",
+        "pan": 0.6
+      }
+    ]
+  },
+  "video": {
+    "file": "Muddog-fleer.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration": 42,
+    "sha256": "5365492a2623880396e40bea3739f0ec1e7e844b133205bd55cc088be2debd57",
+    "encoding": "H.264 CRF 24 / slow; AAC audio copied from the initial render.",
+    "bytes": 11610419
+  },
+  "renderer": "Deterministic procedural 3D projection, vector silhouettes, bloom and drawn pulse paths.",
+  "verification": {
+    "full_video_audio_decode": "passed",
+    "encoded_frames": 1008,
+    "decoded_audio": {
+      "duration_seconds": 42.00533333333333,
+      "peak": 0.798553466796875,
+      "clipped_samples": 0,
+      "channel_difference_rms": 0.017033834760329873
+    },
+    "license_preserved": true
+  },
+  "rendererNote": "This delivery was compressed from the initial CRF 19 master. The renderer now uses CRF 24 directly for future exports."
+}
